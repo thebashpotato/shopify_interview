@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "application unit tests",
+            "program": "${workspaceFolder}/build/app/tests/example_app_tests",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "application main",
+            "program": "${workspaceFolder}/build/app/example_app",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
