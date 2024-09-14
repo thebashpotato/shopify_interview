@@ -4,7 +4,7 @@
 
 Problem (Sample output and explanation)
 
-
+```txt
 Create a command line app that prompts for commands and moves a rover around a 2D plane.
 The robot should point in a direction, turn to face different directions, and move in the direction it is facing.
 
@@ -44,6 +44,7 @@ Command the robot with:
   Q - quit
 > Q
 Robot shutting down.
+```
 
 
 
